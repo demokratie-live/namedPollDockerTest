@@ -1,0 +1,23 @@
+{
+  "name": "namedpolls_docker",
+  "version": "1.0.0",
+  "description": "namedPolls Scraper dockerized",
+  "main": "index.js",
+  "author": "Ulf Gebhardt",
+  "license": "Apache 2.0",
+  "private": false,
+  "scripts": {
+    "dev": "babel-node src/index.js"
+  },
+  "dependencies": {
+    "@democracy-deutschland/bundestag.io-definitions": "^1.0.0",
+    "@democracy-deutschland/scapacra": "^1.0.6",
+    "@democracy-deutschland/scapacra-bt": "^1.0.26",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-inline-import": "^3.0.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "mongoose": "^5.8.10",
+    "mongoose-diff-history": "^1.6.1"
+  }
+}
